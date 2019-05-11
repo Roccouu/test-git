@@ -47,7 +47,7 @@ Modal.prototype = {
 		modalBody.setAttribute('id', 'body-modal');
 		modalFooter.setAttribute('id', 'footer-modal');
 		
-		modalLogo = new Logo();
+		modalLogo = 'Logo'; // new Logo();
 		modalLogo = modalLogo.buildLogo().getLogo();
 		modalTitle = document.createElement('P');
 		modalTitle.setAttribute('id', 'title-modal');
